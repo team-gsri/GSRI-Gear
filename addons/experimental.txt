@@ -1,0 +1,1 @@
+Experimental branch is based on latest dev version and is used to explore hidden ressources of the original COS addon.
