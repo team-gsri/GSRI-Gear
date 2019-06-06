@@ -137,4 +137,42 @@ class CfgVehicles {
         displayName="$STR_GSRI_backpack_B_alpin_displayName";
 		model="\COS_back_pack\SOG_BAG_ALPIN";
     };
+    class GSRI_backpack_B_scuba : GSRI_backpack_B {
+        displayName="# test scuba";
+		model="\COS_back_pack\SOG_BAG_SCUBA";
+    };
+    class GSRI_backpack_B_para : GSRI_backpack_B {
+        displayName="# test para";
+		model="\COS_back_pack\SOG_PARACHUTE";
+		hiddenSelections[]={"camo"};
+		hiddenSelectionsTextures[]={"\COS_back_pack\data\PARACHUTE\parachute_COS.co.paa"};
+    };
+    class GSRI_backpack_B_0 : GSRI_backpack_B {
+        displayName="# test 0";
+		model="\COS_back_pack\backpack";
+    };
+    class GSRI_backpack_B_1 : GSRI_backpack_B {
+        displayName="# test 1";
+		model="\COS_back_pack\backpack_1";
+    };
+    class GSRI_backpack_B_2 : GSRI_backpack_B {
+        displayName="# test 2";
+		model="\COS_back_pack\backpack_2";
+    };
+    class GSRI_backpack_B_flash : GSRI_backpack_B {
+        displayName="# test flash";
+		model="\COS_back_pack\backpack_FLASH";
+    };
+    class GSRI_backpack_B_net : GSRI_backpack_B {
+        displayName="# test net";
+		model="\COS_back_pack\BAG_opex_net";
+		hiddenSelections[]={"camo"};
+		hiddenSelectionsTextures[]={"\COS_back_pack\data\OPEX_BAG\opex_bag_od_co.paa"};
+    };
+    class GSRI_backpack_B_dry : GSRI_backpack_B {
+        displayName="# test dry";
+		model="\COS_back_pack\drybag";
+		hiddenSelections[]={"camo"};
+		hiddenSelectionsTextures[]={"\COS_back_pack\data\drybag\DryBag_blk_co.paa"};
+    };
 };
